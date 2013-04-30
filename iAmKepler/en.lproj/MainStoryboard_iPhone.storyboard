@@ -51,7 +51,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="fullNameText" destination="67k-Au-71S" id="xhd-kC-buI"/>
                         <outlet property="mainMenuButton" destination="arh-Pw-ewq" id="zvu-xz-mFN"/>
+                        <outlet property="userNameText" destination="Y0t-0w-YQx" id="wjb-6n-Rid"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
@@ -67,7 +69,9 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/KeplerViewController.h"/>
             <relationships>
                 <relationship kind="action" name="mainMenuButtonPush:"/>
+                <relationship kind="outlet" name="fullNameText" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="mainMenuButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="userNameText" candidateClass="UILabel"/>
             </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">

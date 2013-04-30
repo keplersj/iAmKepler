@@ -12,5 +12,7 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *mainMenuButton;
 - (IBAction)mainMenuButtonPush:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *fullNameText;
+@property (weak, nonatomic) IBOutlet UILabel *userNameText;
 
 @end
