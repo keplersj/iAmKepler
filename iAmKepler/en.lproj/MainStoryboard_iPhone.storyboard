@@ -54,18 +54,6 @@
             <point key="canvasLocation" x="376" y="137"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="KeplerViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/KeplerViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="mainMenuButtonPush:"/>
-                <relationship kind="outlet" name="mainMenuButton" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
