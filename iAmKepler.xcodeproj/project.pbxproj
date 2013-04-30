@@ -19,6 +19,7 @@
 		E65884AB172F718A00D72204 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E65884A9172F718A00D72204 /* MainStoryboard_iPhone.storyboard */; };
 		E65884AE172F718A00D72204 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E65884AC172F718A00D72204 /* MainStoryboard_iPad.storyboard */; };
 		E65884B1172F718A00D72204 /* KeplerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E65884B0172F718A00D72204 /* KeplerViewController.m */; };
+		E66E3809172F7C6B00FB0A9C /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E66E3808172F7C6B00FB0A9C /* avatar.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		E65884AD172F718A00D72204 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		E65884AF172F718A00D72204 /* KeplerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeplerViewController.h; sourceTree = "<group>"; };
 		E65884B0172F718A00D72204 /* KeplerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeplerViewController.m; sourceTree = "<group>"; };
+		E66E3808172F7C6B00FB0A9C /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				E65884AC172F718A00D72204 /* MainStoryboard_iPad.storyboard */,
 				E65884AF172F718A00D72204 /* KeplerViewController.h */,
 				E65884B0172F718A00D72204 /* KeplerViewController.m */,
+				E66E3808172F7C6B00FB0A9C /* avatar.jpg */,
 				E6588498172F718A00D72204 /* Supporting Files */,
 			);
 			path = iAmKepler;
@@ -168,6 +171,7 @@
 				E65884A8172F718A00D72204 /* Default-568h@2x.png in Resources */,
 				E65884AB172F718A00D72204 /* MainStoryboard_iPhone.storyboard in Resources */,
 				E65884AE172F718A00D72204 /* MainStoryboard_iPad.storyboard in Resources */,
+				E66E3809172F7C6B00FB0A9C /* avatar.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +317,7 @@
 				E65884B6172F718A00D72204 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
