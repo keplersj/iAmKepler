@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6588492172F718A00D72204 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6588491172F718A00D72204 /* UIKit.framework */; };
+		E6588494172F718A00D72204 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6588493172F718A00D72204 /* Foundation.framework */; };
+		E6588496172F718A00D72204 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6588495172F718A00D72204 /* CoreGraphics.framework */; };
+		E658849C172F718A00D72204 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E658849A172F718A00D72204 /* InfoPlist.strings */; };
+		E658849E172F718A00D72204 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E658849D172F718A00D72204 /* main.m */; };
+		E65884A2172F718A00D72204 /* KeplerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E65884A1172F718A00D72204 /* KeplerAppDelegate.m */; };
+		E65884A4172F718A00D72204 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E65884A3172F718A00D72204 /* Default.png */; };
+		E65884A6172F718A00D72204 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E65884A5172F718A00D72204 /* Default@2x.png */; };
+		E65884A8172F718A00D72204 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E65884A7172F718A00D72204 /* Default-568h@2x.png */; };
+		E65884AB172F718A00D72204 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E65884A9172F718A00D72204 /* MainStoryboard_iPhone.storyboard */; };
+		E65884AE172F718A00D72204 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E65884AC172F718A00D72204 /* MainStoryboard_iPad.storyboard */; };
+		E65884B1172F718A00D72204 /* KeplerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E65884B0172F718A00D72204 /* KeplerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E658848E172F718A00D72204 /* iAmKepler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iAmKepler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6588491172F718A00D72204 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E6588493172F718A00D72204 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E6588495172F718A00D72204 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E6588499172F718A00D72204 /* iAmKepler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iAmKepler-Info.plist"; sourceTree = "<group>"; };
+		E658849B172F718A00D72204 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E658849D172F718A00D72204 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E658849F172F718A00D72204 /* iAmKepler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iAmKepler-Prefix.pch"; sourceTree = "<group>"; };
+		E65884A0172F718A00D72204 /* KeplerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeplerAppDelegate.h; sourceTree = "<group>"; };
+		E65884A1172F718A00D72204 /* KeplerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeplerAppDelegate.m; sourceTree = "<group>"; };
+		E65884A3172F718A00D72204 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E65884A5172F718A00D72204 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E65884A7172F718A00D72204 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E65884AA172F718A00D72204 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		E65884AD172F718A00D72204 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		E65884AF172F718A00D72204 /* KeplerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeplerViewController.h; sourceTree = "<group>"; };
+		E65884B0172F718A00D72204 /* KeplerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeplerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E658848B172F718A00D72204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6588492172F718A00D72204 /* UIKit.framework in Frameworks */,
+				E6588494172F718A00D72204 /* Foundation.framework in Frameworks */,
+				E6588496172F718A00D72204 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6588485172F718A00D72204 = {
+			isa = PBXGroup;
+			children = (
+				E6588497172F718A00D72204 /* iAmKepler */,
+				E6588490172F718A00D72204 /* Frameworks */,
+				E658848F172F718A00D72204 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E658848F172F718A00D72204 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E658848E172F718A00D72204 /* iAmKepler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6588490172F718A00D72204 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6588491172F718A00D72204 /* UIKit.framework */,
+				E6588493172F718A00D72204 /* Foundation.framework */,
+				E6588495172F718A00D72204 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6588497172F718A00D72204 /* iAmKepler */ = {
+			isa = PBXGroup;
+			children = (
+				E65884A0172F718A00D72204 /* KeplerAppDelegate.h */,
+				E65884A1172F718A00D72204 /* KeplerAppDelegate.m */,
+				E65884A9172F718A00D72204 /* MainStoryboard_iPhone.storyboard */,
+				E65884AC172F718A00D72204 /* MainStoryboard_iPad.storyboard */,
+				E65884AF172F718A00D72204 /* KeplerViewController.h */,
+				E65884B0172F718A00D72204 /* KeplerViewController.m */,
+				E6588498172F718A00D72204 /* Supporting Files */,
+			);
+			path = iAmKepler;
+			sourceTree = "<group>";
+		};
+		E6588498172F718A00D72204 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6588499172F718A00D72204 /* iAmKepler-Info.plist */,
+				E658849A172F718A00D72204 /* InfoPlist.strings */,
+				E658849D172F718A00D72204 /* main.m */,
+				E658849F172F718A00D72204 /* iAmKepler-Prefix.pch */,
+				E65884A3172F718A00D72204 /* Default.png */,
+				E65884A5172F718A00D72204 /* Default@2x.png */,
+				E65884A7172F718A00D72204 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E658848D172F718A00D72204 /* iAmKepler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E65884B4172F718A00D72204 /* Build configuration list for PBXNativeTarget "iAmKepler" */;
+			buildPhases = (
+				E658848A172F718A00D72204 /* Sources */,
+				E658848B172F718A00D72204 /* Frameworks */,
+				E658848C172F718A00D72204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iAmKepler;
+			productName = iAmKepler;
+			productReference = E658848E172F718A00D72204 /* iAmKepler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6588486172F718A00D72204 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Kepler;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Kepler Sticka-Jones";
+			};
+			buildConfigurationList = E6588489172F718A00D72204 /* Build configuration list for PBXProject "iAmKepler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E6588485172F718A00D72204;
+			productRefGroup = E658848F172F718A00D72204 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E658848D172F718A00D72204 /* iAmKepler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E658848C172F718A00D72204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E658849C172F718A00D72204 /* InfoPlist.strings in Resources */,
+				E65884A4172F718A00D72204 /* Default.png in Resources */,
+				E65884A6172F718A00D72204 /* Default@2x.png in Resources */,
+				E65884A8172F718A00D72204 /* Default-568h@2x.png in Resources */,
+				E65884AB172F718A00D72204 /* MainStoryboard_iPhone.storyboard in Resources */,
+				E65884AE172F718A00D72204 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E658848A172F718A00D72204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E658849E172F718A00D72204 /* main.m in Sources */,
+				E65884A2172F718A00D72204 /* KeplerAppDelegate.m in Sources */,
+				E65884B1172F718A00D72204 /* KeplerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E658849A172F718A00D72204 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E658849B172F718A00D72204 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E65884A9172F718A00D72204 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E65884AA172F718A00D72204 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E65884AC172F718A00D72204 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E65884AD172F718A00D72204 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E65884B2172F718A00D72204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E65884B3172F718A00D72204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E65884B5172F718A00D72204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iAmKepler/iAmKepler-Prefix.pch";
+				INFOPLIST_FILE = "iAmKepler/iAmKepler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E65884B6172F718A00D72204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iAmKepler/iAmKepler-Prefix.pch";
+				INFOPLIST_FILE = "iAmKepler/iAmKepler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6588489172F718A00D72204 /* Build configuration list for PBXProject "iAmKepler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E65884B2172F718A00D72204 /* Debug */,
+				E65884B3172F718A00D72204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E65884B4172F718A00D72204 /* Build configuration list for PBXNativeTarget "iAmKepler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E65884B5172F718A00D72204 /* Debug */,
+				E65884B6172F718A00D72204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6588486172F718A00D72204 /* Project object */;
+}
