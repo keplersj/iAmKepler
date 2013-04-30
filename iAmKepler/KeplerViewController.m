@@ -27,6 +27,6 @@
 }
 
 - (IBAction)mainMenuButtonPush:(id)sender {
-    NSLog(@"Don't Press too Hard! Kepler's avatar is supposed to go here soon!");
+    NSLog(@"Don't Press too Hard! That is the creator's head your poking after all!");
 }
 @end
