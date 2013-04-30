@@ -31,6 +31,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="mainMenuButtonPush:" destination="2" eventType="touchUpInside" id="eYj-69-our"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
@@ -42,6 +45,9 @@
                             <constraint firstItem="arh-Pw-ewq" firstAttribute="centerY" secondItem="3" secondAttribute="centerY" type="user" id="viY-JT-Vp2"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mainMenuButton" destination="arh-Pw-ewq" id="zvu-xz-mFN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
@@ -51,6 +57,10 @@
     <classes>
         <class className="KeplerViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/KeplerViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="mainMenuButtonPush:"/>
+                <relationship kind="outlet" name="mainMenuButton" candidateClass="UIButton"/>
+            </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>

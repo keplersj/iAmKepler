@@ -10,4 +10,7 @@
 
 @interface KeplerViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *mainMenuButton;
+- (IBAction)mainMenuButtonPush:(id)sender;
+
 @end
