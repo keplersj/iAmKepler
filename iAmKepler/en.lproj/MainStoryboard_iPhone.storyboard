@@ -9,7 +9,7 @@
             <objects>
                 <viewController id="2" customClass="KeplerViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="arh-Pw-ewq">
@@ -42,12 +42,12 @@
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="67k-Au-71S" firstAttribute="centerX" secondItem="arh-Pw-ewq" secondAttribute="centerX" type="user" id="6QL-1i-phj"/>
-                            <constraint firstItem="Y0t-0w-YQx" firstAttribute="centerX" secondItem="67k-Au-71S" secondAttribute="centerX" type="user" id="MN0-Mb-HeD"/>
-                            <constraint firstItem="arh-Pw-ewq" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="user" id="UMG-J8-hft"/>
-                            <constraint firstItem="67k-Au-71S" firstAttribute="top" secondItem="arh-Pw-ewq" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="WM7-ym-iFs"/>
-                            <constraint firstItem="Y0t-0w-YQx" firstAttribute="top" secondItem="67k-Au-71S" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="vgC-FJ-Mne"/>
-                            <constraint firstItem="arh-Pw-ewq" firstAttribute="centerY" secondItem="3" secondAttribute="centerY" type="user" id="viY-JT-Vp2"/>
+                            <constraint firstItem="Y0t-0w-YQx" firstAttribute="top" secondItem="67k-Au-71S" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="0IY-7p-xOc"/>
+                            <constraint firstItem="67k-Au-71S" firstAttribute="top" secondItem="arh-Pw-ewq" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="1hT-9S-YKF"/>
+                            <constraint firstItem="Y0t-0w-YQx" firstAttribute="centerX" secondItem="67k-Au-71S" secondAttribute="centerX" type="user" id="EGg-p6-U1L"/>
+                            <constraint firstItem="arh-Pw-ewq" firstAttribute="centerX" secondItem="67k-Au-71S" secondAttribute="centerX" type="user" id="FpE-Kw-NXH"/>
+                            <constraint firstItem="67k-Au-71S" firstAttribute="centerY" secondItem="3" secondAttribute="centerY" type="user" id="W5H-aW-gXT"/>
+                            <constraint firstItem="67k-Au-71S" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="user" id="WdP-ud-WSa"/>
                         </constraints>
                     </view>
                     <connections>
@@ -74,6 +74,6 @@
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
 </document>
